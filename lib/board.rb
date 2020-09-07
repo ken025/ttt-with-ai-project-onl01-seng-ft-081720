@@ -40,11 +40,5 @@ class Board
   
   def update(input, player)
     cells[input.to_i-1] = player.token
-  end 
-=======
-    puts "----------"
-    puts " #{cells[3]} | #{cells[4]} | #{cells[5]} "
-    puts "----------"
-    puts " #{cells[6]} | #{cells[7]} | #{cells[8]} "
   end
 end 
