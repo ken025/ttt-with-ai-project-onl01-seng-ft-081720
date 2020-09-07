@@ -12,6 +12,7 @@ class Board
   
   def display
     puts " #{cells[0]} | #{cells[1]} | #{cells[2]} "
+<<<<<<< HEAD
     puts "-----------"
     puts " #{cells[3]} | #{cells[4]} | #{cells[5]} "
     puts "-----------"
@@ -41,4 +42,11 @@ class Board
   def update(input, player)
     cells[input.to_i-1] = player.token
   end 
+=======
+    puts "----------"
+    puts " #{cells[3]} | #{cells[4]} | #{cells[5]} "
+    puts "----------"
+    puts " #{cells[6]} | #{cells[7]} | #{cells[8]} "
+  end
+>>>>>>> 0ed09020d0e2c29e1b3072f3c359803fd84389db
 end 
